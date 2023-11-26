@@ -46,6 +46,15 @@ add_executable(Cluster_Calculations
         Lab3/Lab3/utilities.cpp
         Lab3/Lab3/utilities.h
         Lab4/Lab4/Lab4.cpp
+        Lab4/Lab4/parallel_sort.cpp
+        Lab4/Lab4/serial_sort.cpp
+        Lab4/Lab4/time_measuring.cpp
+        Lab4/Lab4/utilities.cpp
+        Lab5/Lab5/Lab5.cpp
+        Lab5/Lab5/parallel_graph.cpp
+        Lab5/Lab5/serial_graph.cpp
+        Lab5/Lab5/time_measuring.cpp
+        Lab5/Lab5/utilities.cpp
         TestRunner/TestRunner/TestRunner.cpp)
 
 target_link_libraries(Cluster_Calculations PUBLIC MPI::MPI_CXX)
