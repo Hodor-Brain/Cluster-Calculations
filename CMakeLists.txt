@@ -55,6 +55,11 @@ add_executable(Cluster_Calculations
         Lab5/Lab5/serial_graph.cpp
         Lab5/Lab5/time_measuring.cpp
         Lab5/Lab5/utilities.cpp
+        MonteCarloOperation/MonteCarloOperation/MonteCarloOperation.cpp
+        MonteCarloOperation/MonteCarloOperation/mpi_algo.cpp
+        MonteCarloOperation/MonteCarloOperation/mpi_algo.h
+        MonteCarloOperation/MonteCarloOperation/serial_algo.cpp
+        MonteCarloOperation/MonteCarloOperation/serial_algo.h
         TestRunner/TestRunner/TestRunner.cpp)
 
 target_link_libraries(Cluster_Calculations PUBLIC MPI::MPI_CXX)
